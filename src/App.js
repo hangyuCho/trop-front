@@ -1,13 +1,13 @@
 import './App.css';
 import Header from './components/header/Header';
-import Main from './components/main/Main';
+import Reserve from './components/reserve/Reserve';
 import Footer from './components/footer/Footer';
 
 function App() {
   return (
     <div className="App">
       <Header></Header>
-      <Main></Main>
+      <Reserve></Reserve>
       <Footer></Footer>
     </div>
   );
